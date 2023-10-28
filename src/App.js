@@ -7,9 +7,12 @@ import Map from './components/map/Map'
 
 
 
-import { MainBody } from './styles/Global.styled'
+
 import { ThemeProvider } from 'styled-components'
 import { theme } from "./Themes/default"
+
+import { Layout } from './layout/layout.styled'
+import GlobalStyles from './styles/GlobalStyles'
 
 
 // import Placedetails from './components/placeDetails/Placedetails'
@@ -18,10 +21,13 @@ import { theme } from "./Themes/default"
 const App = () => {
   return (
     <ThemeProvider theme={theme} >
-          <Header />
-          <MainBody />
-          <List />
-          <Map />
+      <GlobalStyles />
+      <Layout>
+             <Header />
+              <List />
+              <Map />
+      </Layout>
+        
     </ThemeProvider>
   )
 }
