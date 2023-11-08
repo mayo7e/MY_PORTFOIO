@@ -4,13 +4,14 @@ import React from 'react'
 
 import {LeftSection} from "./HeroStyles"
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents'
+import  Button from "../../styles/GlobalComponents/Button"
 
 const Hero = () => {
   return (
     <Section>
         <LeftSection>
             <SectionTitle main >
-                  Learn about me
+                  Learn about moi
             </SectionTitle>
             <SectionText>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -18,6 +19,7 @@ const Hero = () => {
             </SectionText>
 
         </LeftSection>
+            <Button alt> Join me </Button>
 
     </Section>
   )
