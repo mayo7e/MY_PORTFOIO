@@ -8,6 +8,7 @@ export const Container = styled.div`
         grid-column-gap: 2rem;
         padding: 1rem;
         padding-top: 2rem;
+        border: 2px solid tomato;
         
         @media ${(props) => props.theme.breakpoints.sm} {
           display: grid;
@@ -65,5 +66,9 @@ export const Div3 = styled.div`
     `
 
 export const List = styled.i`
-
+     transition: 0.4s ease;
+      &:hover {
+        color: #fff;
+        opacity: 1;
+        cursor: pointer;
 `

@@ -2,8 +2,9 @@
 import React from 'react'
 
 import Header from './components/header/Header'
-import List from './components/list/List'
-import Map from './components/map/Map'
+import List from './components/hero/Hero'
+import Projects from './components/projects/Projects'
+import Hero from './components/hero/Hero'
 
 
 
@@ -24,8 +25,8 @@ const App = () => {
       <GlobalStyles />
       <Layout>
              <Header />
-              <List />
-              <Map />
+              <Hero />
+              <Projects />
       </Layout>
         
     </ThemeProvider>
