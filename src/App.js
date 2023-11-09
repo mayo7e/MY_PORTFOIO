@@ -4,6 +4,7 @@ import React from 'react'
 import Header from './components/header/Header'
 import List from './components/hero/Hero'
 import Projects from './components/projects/Projects'
+import Technologies from './components/technologies/Technologies'
 import Hero from './components/hero/Hero'
 
 
@@ -27,6 +28,7 @@ const App = () => {
              <Header />
               <Hero />
               <Projects />
+              <Technologies />
       </Layout>
         
     </ThemeProvider>

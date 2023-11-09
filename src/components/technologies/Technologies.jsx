@@ -2,12 +2,12 @@
 
 import React from 'react'
 
-const Placedetails = () => {
+const Technologies = () => {
   return (
     <div>
-            <h1>Place Details </h1>
+            <h1>Technoogies </h1>
     </div>
   )
 }
 
-export default Placedetails
+export default Technologies
