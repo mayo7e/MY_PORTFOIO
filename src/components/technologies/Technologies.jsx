@@ -5,7 +5,7 @@ import React from 'react'
 const Technologies = () => {
   return (
     <div>
-            <h1>Technoogies </h1>
+            <h1>Technologies </h1>
     </div>
   )
 }
