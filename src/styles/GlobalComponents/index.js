@@ -25,6 +25,7 @@ export const SectionText = styled.p`
         max-width:600px;
         font-weight: 300px;
         font-size: 24px;
+        color: rgba(255, 255, 255, 0.75);
         padding-bottom: 3.5rem;
 
 `
