@@ -6,6 +6,7 @@ import List from './components/hero/Hero'
 import Projects from './components/projects/Projects'
 import Technologies from './components/technologies/Technologies'
 import Hero from './components/hero/Hero'
+import Timeline from './components/timeline/Timeline'
 
 
 
@@ -29,6 +30,7 @@ const App = () => {
               <Hero />
               <Projects />
               <Technologies />
+              <Timeline />
       </Layout>
         
     </ThemeProvider>
