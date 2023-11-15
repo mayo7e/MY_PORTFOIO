@@ -19,6 +19,9 @@ export const SectionTitle = styled.h2`
         font-size: ${(props)=> props.main ? "64px": "48px"};
         padding: 3.5rem 0 1rem;
         margin-bottom: 1rem;
+        background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         
         `
 export const SectionText = styled.p`
