@@ -65,7 +65,7 @@ export const Div3 = styled.div`
     gap: 16px;
     `
 
-export const List = styled.i`
+export const List = styled.li`
      transition: 0.4s ease;
       &:hover {
         color: #fff;
