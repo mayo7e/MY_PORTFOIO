@@ -9,6 +9,7 @@ import Hero from './components/hero/Hero'
 import Timeline from './components/timeline/Timeline'
 import Accomplishment from './components/accomplishments/Accomplishments'
 import Footer from './components/footer/Footer'
+import  switchLanguages  from './components/switchLanguage/switchLanguage'
 
 
 
@@ -24,11 +25,14 @@ import GlobalStyles from './styles/GlobalStyles'
 
 
 const App = () => {
+
+  
   return (
     <ThemeProvider theme={theme} >
       <GlobalStyles />
       <Layout>
              <Header />
+             <switchLanguages />
               <Hero />
               <Projects />
               <Technologies />
